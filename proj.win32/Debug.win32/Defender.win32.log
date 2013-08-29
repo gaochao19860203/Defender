@@ -1,0 +1,121 @@
+﻿生成启动时间为 2013-8-30 7:35:17。
+     1>项目“E:\cocos2dxapi\cocos2dxworkspace\Defender\proj.win32\Defender.win32.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug.win32\Defender.win32.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         e:\MicrosoftVisualStudio10.0\VC\bin\CL.exe /c /I. /I..\Classes /I"E:\cocos2dxapi\cocos2d-2.1rc0-x-2.1.3\cocos2dx" /I"E:\cocos2dxapi\cocos2d-2.1rc0-x-2.1.3\cocos2dx\include" /I"E:\cocos2dxapi\cocos2d-2.1rc0-x-2.1.3\cocos2dx\kazmath\include" /I"E:\cocos2dxapi\cocos2d-2.1rc0-x-2.1.3\cocos2dx\platform\win32" /I"E:\cocos2dxapi\cocos2d-2.1rc0-x-2.1.3\cocos2dx\platform\third_party\win32" /I"E:\cocos2dxapi\cocos2d-2.1rc0-x-2.1.3\cocos2dx\platform\third_party\win32\OGLES" /I"E:\cocos2dxapi\cocos2d-2.1rc0-x-2.1.3\external" /I"E:\cocos2dxapi\cocos2d-2.1rc0-x-2.1.3\CocosDenshion\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D STRICT /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS_DEBUG /D COCOS2D_DEBUG=1 /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc100.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\AboutCoderLayer.cpp ..\Classes\AppDelegate.cpp ..\Classes\BaseLayer.cpp ..\Classes\BulletsSprite.cpp ..\Classes\CheckpointSystems.cpp ..\Classes\DefenderGameLayer.cpp ..\Classes\GameOverDialogLayer.cpp ..\Classes\GameSuccessfullyLayer.cpp ..\Classes\GameTipsSprite.cpp ..\Classes\HelloWorldScene.cpp ..\Classes\LoadingLayer.cpp ..\Classes\MagicMatrixSprite.cpp ..\Classes\MainCityBloodSprite.cpp ..\Classes\MonsterSprite.cpp ..\Classes\MonsterSystem.cpp ..\Classes\PauseGameDialogLayer.cpp ..\Classes\RatingSprite.cpp ..\Classes\SnailProgressSprite.cpp ..\Classes\UpgradeSystemLayer.cpp ..\Classes\WeaponSprite.cpp ..\Classes\WelComeGameLayer.cpp main.cpp
+         main.cpp
+         WelComeGameLayer.cpp
+         WeaponSprite.cpp
+     1>e:\cocos2dxapi\cocos2dxworkspace\defender\classes\weaponsprite.cpp(92): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\cocos2dxapi\cocos2dxworkspace\defender\classes\weaponsprite.cpp(102): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\cocos2dxapi\cocos2dxworkspace\defender\classes\weaponsprite.cpp(146): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\cocos2dxapi\cocos2dxworkspace\defender\classes\weaponsprite.cpp(203): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\cocos2dxapi\cocos2dxworkspace\defender\classes\weaponsprite.cpp(282): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\cocos2dxapi\cocos2dxworkspace\defender\classes\weaponsprite.cpp(289): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\cocos2dxapi\cocos2dxworkspace\defender\classes\weaponsprite.cpp(302): warning C4018: “<”: 有符号/无符号不匹配
+         UpgradeSystemLayer.cpp
+         SnailProgressSprite.cpp
+         RatingSprite.cpp
+         PauseGameDialogLayer.cpp
+         MonsterSystem.cpp
+     1>e:\cocos2dxapi\cocos2dxworkspace\defender\classes\monstersystem.cpp(77): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\cocos2dxapi\cocos2dxworkspace\defender\classes\monstersystem.cpp(106): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\cocos2dxapi\cocos2dxworkspace\defender\classes\monstersystem.cpp(142): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\cocos2dxapi\cocos2dxworkspace\defender\classes\monstersystem.cpp(157): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\cocos2dxapi\cocos2dxworkspace\defender\classes\monstersystem.cpp(206): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\cocos2dxapi\cocos2dxworkspace\defender\classes\monstersystem.cpp(239): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\cocos2dxapi\cocos2dxworkspace\defender\classes\monstersystem.cpp(275): warning C4018: “>”: 有符号/无符号不匹配
+     1>e:\cocos2dxapi\cocos2dxworkspace\defender\classes\monstersystem.cpp(280): warning C4018: “>=”: 有符号/无符号不匹配
+     1>e:\cocos2dxapi\cocos2dxworkspace\defender\classes\monstersystem.cpp(281): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\cocos2dxapi\cocos2dxworkspace\defender\classes\monstersystem.cpp(290): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\cocos2dxapi\cocos2dxworkspace\defender\classes\monstersystem.cpp(312): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\cocos2dxapi\cocos2dxworkspace\defender\classes\monstersystem.cpp(341): warning C4018: “<”: 有符号/无符号不匹配
+         MonsterSprite.cpp
+     1>e:\cocos2dxapi\cocos2dxworkspace\defender\classes\monstersprite.cpp(94): warning C4305: “参数”: 从“double”到“float”截断
+         MainCityBloodSprite.cpp
+         MagicMatrixSprite.cpp
+         LoadingLayer.cpp
+         HelloWorldScene.cpp
+         GameTipsSprite.cpp
+         GameSuccessfullyLayer.cpp
+         GameOverDialogLayer.cpp
+         DefenderGameLayer.cpp
+     1>e:\cocos2dxapi\cocos2dxworkspace\defender\classes\defendergamelayer.cpp(182): warning C4305: “参数”: 从“double”到“float”截断
+     1>e:\cocos2dxapi\cocos2dxworkspace\defender\classes\defendergamelayer.cpp(212): warning C4305: “参数”: 从“double”到“float”截断
+     1>e:\cocos2dxapi\cocos2dxworkspace\defender\classes\defendergamelayer.cpp(294): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\cocos2dxapi\cocos2dxworkspace\defender\classes\defendergamelayer.cpp(311): warning C4018: “<”: 有符号/无符号不匹配
+         CheckpointSystems.cpp
+         BulletsSprite.cpp
+         BaseLayer.cpp
+         正在生成代码...
+         正在编译...
+         AppDelegate.cpp
+         AboutCoderLayer.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /l"0x0409" /IDebug.win32\ /nologo /fo"Debug.win32\Defender.res" Defender.rc 
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug.win32\Defender.win32.exe.embed.manifest.res" Debug.win32\Defender.win32_manifest.rc 
+       Link:
+         e:\MicrosoftVisualStudio10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\cocos2dxapi\cocos2d-2.1rc0-x-2.1.3\Debug.win32\Defender.win32.exe" /INCREMENTAL /NOLOGO /LIBPATH:"E:\cocos2dxapi\cocos2d-2.1rc0-x-2.1.3\Debug.win32\\" libcocos2d.lib opengl32.lib glew32.lib libBox2d.lib libCocosDenshion.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug.win32\Defender.win32.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\cocos2dxapi\cocos2d-2.1rc0-x-2.1.3\Debug.win32\Defender.win32.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\cocos2dxapi\cocos2d-2.1rc0-x-2.1.3\Debug.win32\Defender.win32.lib" /MACHINE:X86 Debug.win32\Defender.res
+         Debug.win32\Defender.win32.exe.embed.manifest.res
+         Debug.win32\AboutCoderLayer.obj
+         Debug.win32\AppDelegate.obj
+         Debug.win32\BaseLayer.obj
+         Debug.win32\BulletsSprite.obj
+         Debug.win32\CheckpointSystems.obj
+         Debug.win32\DefenderGameLayer.obj
+         Debug.win32\GameOverDialogLayer.obj
+         Debug.win32\GameSuccessfullyLayer.obj
+         Debug.win32\GameTipsSprite.obj
+         Debug.win32\HelloWorldScene.obj
+         Debug.win32\LoadingLayer.obj
+         Debug.win32\MagicMatrixSprite.obj
+         Debug.win32\MainCityBloodSprite.obj
+         Debug.win32\MonsterSprite.obj
+         Debug.win32\MonsterSystem.obj
+         Debug.win32\PauseGameDialogLayer.obj
+         Debug.win32\RatingSprite.obj
+         Debug.win32\SnailProgressSprite.obj
+         Debug.win32\UpgradeSystemLayer.obj
+         Debug.win32\WeaponSprite.obj
+         Debug.win32\WelComeGameLayer.obj
+         Debug.win32\main.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug.win32\Defender.win32.exe.embed.manifest" /manifest Debug.win32\Defender.win32.exe.intermediate.manifest
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug.win32\Defender.win32.exe.embed.manifest.res" Debug.win32\Defender.win32_manifest.rc 
+       LinkEmbedManifest:
+         e:\MicrosoftVisualStudio10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\cocos2dxapi\cocos2d-2.1rc0-x-2.1.3\Debug.win32\Defender.win32.exe" /INCREMENTAL /NOLOGO /LIBPATH:"E:\cocos2dxapi\cocos2d-2.1rc0-x-2.1.3\Debug.win32\\" libcocos2d.lib opengl32.lib glew32.lib libBox2d.lib libCocosDenshion.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug.win32\Defender.win32.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\cocos2dxapi\cocos2d-2.1rc0-x-2.1.3\Debug.win32\Defender.win32.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\cocos2dxapi\cocos2d-2.1rc0-x-2.1.3\Debug.win32\Defender.win32.lib" /MACHINE:X86 Debug.win32\Defender.res
+         Debug.win32\Defender.win32.exe.embed.manifest.res
+         Debug.win32\AboutCoderLayer.obj
+         Debug.win32\AppDelegate.obj
+         Debug.win32\BaseLayer.obj
+         Debug.win32\BulletsSprite.obj
+         Debug.win32\CheckpointSystems.obj
+         Debug.win32\DefenderGameLayer.obj
+         Debug.win32\GameOverDialogLayer.obj
+         Debug.win32\GameSuccessfullyLayer.obj
+         Debug.win32\GameTipsSprite.obj
+         Debug.win32\HelloWorldScene.obj
+         Debug.win32\LoadingLayer.obj
+         Debug.win32\MagicMatrixSprite.obj
+         Debug.win32\MainCityBloodSprite.obj
+         Debug.win32\MonsterSprite.obj
+         Debug.win32\MonsterSystem.obj
+         Debug.win32\PauseGameDialogLayer.obj
+         Debug.win32\RatingSprite.obj
+         Debug.win32\SnailProgressSprite.obj
+         Debug.win32\UpgradeSystemLayer.obj
+         Debug.win32\WeaponSprite.obj
+         Debug.win32\WelComeGameLayer.obj
+         Debug.win32\main.obj
+         Defender.win32.vcxproj -> E:\cocos2dxapi\cocos2d-2.1rc0-x-2.1.3\Debug.win32\Defender.win32.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug.win32\Defender.win32.unsuccessfulbuild”。
+         正在对“Debug.win32\Defender.win32.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\cocos2dxapi\cocos2dxworkspace\Defender\proj.win32\Defender.win32.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:01:03.81

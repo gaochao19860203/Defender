@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3E630795-E6D1-4386-87C4-6412C666F905}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir>$(Configuration).win32\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir>$(Configuration).win32\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.;..\Classes;$(SolutionDir)cocos2dx;$(SolutionDir)cocos2dx\include;$(SolutionDir)cocos2dx\kazmath\include;$(SolutionDir)cocos2dx\platform\win32;$(SolutionDir)cocos2dx\platform\third_party\win32;$(SolutionDir)cocos2dx\platform\third_party\win32\OGLES;$(SolutionDir)external;$(SolutionDir)CocosDenshion\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;STRICT;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS_DEBUG;COCOS2D_DEBUG=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libcocos2d.lib;opengl32.lib;glew32.lib;libBox2d.lib;libCocosDenshion.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <HeaderFileName>Defender.h</HeaderFileName>
+      <InterfaceIdentifierFileName>Defender_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>Defender_p.c</ProxyFileName>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <TypeLibraryName>$(IntDir)/Defender.tlb</TypeLibraryName>
+      <DllDataFileName>
+      </DllDataFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.;..\Classes;$(SolutionDir)cocos2dx;$(SolutionDir)cocos2dx\include;$(SolutionDir)cocos2dx\kazmath\include;$(SolutionDir)cocos2dx\platform\win32;$(SolutionDir)cocos2dx\platform\third_party\win32;$(SolutionDir)cocos2dx\platform\third_party\win32\OGLES;$(SolutionDir)external;$(SolutionDir)CocosDenshion\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;STRICT;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGSNDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libcocos2d.lib;opengl32.lib;glew32.lib;libBox2d.lib;libCocosDenshion.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <HeaderFileName>Defender.h</HeaderFileName>
+      <InterfaceIdentifierFileName>Defender_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>Defender_p.c</ProxyFileName>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <TypeLibraryName>$(IntDir)/Defender.tlb</TypeLibraryName>
+      <DllDataFileName>
+      </DllDataFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="..\Resources\CloseNormal.png" />
+    <None Include="..\Resources\CloseSelected.png" />
+    <None Include="..\Resources\fonts\Marker Felt.ttf" />
+    <None Include="..\Resources\game\coin.png" />
+    <None Include="..\Resources\game\defender.xml" />
+    <None Include="..\Resources\game\gameover.png" />
+    <None Include="..\Resources\game\gameovertips.png" />
+    <None Include="..\Resources\game\jnl.png" />
+    <None Include="..\Resources\game\jnzt.png" />
+    <None Include="..\Resources\game\killbonus.png" />
+    <None Include="..\Resources\game\lifebonus.png" />
+    <None Include="..\Resources\game\lvinfo.plist" />
+    <None Include="..\Resources\game\lvinfo.png" />
+    <None Include="..\Resources\game\lvSyspng.plist" />
+    <None Include="..\Resources\game\lvSyspng.png" />
+    <None Include="..\Resources\game\magic.png" />
+    <None Include="..\Resources\game\MagicMatrix.png" />
+    <None Include="..\Resources\game\monster_blood.png" />
+    <None Include="..\Resources\game\monster_blood_frame.png" />
+    <None Include="..\Resources\game\number_ttf.png" />
+    <None Include="..\Resources\game\numtips.png" />
+    <None Include="..\Resources\game\panelblood.png" />
+    <None Include="..\Resources\game\stagebonus.png" />
+    <None Include="..\Resources\game\stage_title.png" />
+    <None Include="..\Resources\game\statstip.png" />
+    <None Include="..\Resources\game\total.png" />
+    <None Include="..\Resources\game\weapon.png" />
+    <None Include="..\Resources\game\woniu.png" />
+    <None Include="..\Resources\game\woniubj.png" />
+    <None Include="..\Resources\game\woniujd.png" />
+    <None Include="..\Resources\game\wq0.png" />
+    <None Include="..\Resources\game\zcblood.png" />
+    <None Include="..\Resources\gmbg\coder.png" />
+    <None Include="..\Resources\gmbg\gamebg.png" />
+    <None Include="..\Resources\gmbg\gameoverbg.png" />
+    <None Include="..\Resources\gmbg\lodingbg.png" />
+    <None Include="..\Resources\gmbg\longding.png" />
+    <None Include="..\Resources\gmbg\pause_bg.png" />
+    <None Include="..\Resources\gmbg\research_bg.png" />
+    <None Include="..\Resources\gmbg\stats_bg.png" />
+    <None Include="..\Resources\gmbg\welcomebg.png" />
+    <None Include="..\Resources\gmme\btn_home_down.png" />
+    <None Include="..\Resources\gmme\btn_home_up.png" />
+    <None Include="..\Resources\gmme\btn_resume_down.png" />
+    <None Include="..\Resources\gmme\btn_resume_up.png" />
+    <None Include="..\Resources\gmme\btn_retry_down.png" />
+    <None Include="..\Resources\gmme\btn_rety_up.png" />
+    <None Include="..\Resources\gmme\button_sound_off.png" />
+    <None Include="..\Resources\gmme\button_sound_on.png" />
+    <None Include="..\Resources\gmme\coder_down.png" />
+    <None Include="..\Resources\gmme\coder_up.png" />
+    <None Include="..\Resources\gmme\outdown.png" />
+    <None Include="..\Resources\gmme\outup.png" />
+    <None Include="..\Resources\gmme\pause_button.png" />
+    <None Include="..\Resources\gmme\return_down.png" />
+    <None Include="..\Resources\gmme\return_up.png" />
+    <None Include="..\Resources\gmme\star_down.png" />
+    <None Include="..\Resources\gmme\star_up.png" />
+    <None Include="..\Resources\gmme\updwon.png" />
+    <None Include="..\Resources\gmme\upup.png" />
+    <None Include="..\Resources\HelloWorld.png" />
+    <None Include="..\Resources\monster\dutu.plist" />
+    <None Include="..\Resources\monster\dutu.png" />
+    <None Include="..\Resources\music\dt.mp3" />
+    <None Include="..\Resources\specia\diyu.plist" />
+    <None Include="..\Resources\specia\diyu.png" />
+    <None Include="..\Resources\specia\ligtht.plist" />
+    <None Include="..\Resources\specia\ligtht.png" />
+    <None Include="..\Resources\specia\long.plist" />
+    <None Include="..\Resources\specia\long.png" />
+    <None Include="..\Resources\specia\thumbnails.plist" />
+    <None Include="..\Resources\specia\thumbnails.png" />
+    <None Include="res\Defender.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Defender.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\AboutCoderLayer.h" />
+    <ClInclude Include="..\Classes\AppDelegate.h" />
+    <ClInclude Include="..\Classes\BaseLayer.h" />
+    <ClInclude Include="..\Classes\BulletsSprite.h" />
+    <ClInclude Include="..\Classes\CheckpointSystems.h" />
+    <ClInclude Include="..\Classes\DefenderGameLayer.h" />
+    <ClInclude Include="..\Classes\GameOverDialogLayer.h" />
+    <ClInclude Include="..\Classes\GameSuccessfullyLayer.h" />
+    <ClInclude Include="..\Classes\GameTipsSprite.h" />
+    <ClInclude Include="..\Classes\HelloWorldScene.h" />
+    <ClInclude Include="..\Classes\LoadingLayer.h" />
+    <ClInclude Include="..\Classes\MagicMatrixSprite.h" />
+    <ClInclude Include="..\Classes\MainCityBloodSprite.h" />
+    <ClInclude Include="..\Classes\MonsterSprite.h" />
+    <ClInclude Include="..\Classes\MonsterSystem.h" />
+    <ClInclude Include="..\Classes\PauseGameDialogLayer.h" />
+    <ClInclude Include="..\Classes\RatingSprite.h" />
+    <ClInclude Include="..\Classes\SnailProgressSprite.h" />
+    <ClInclude Include="..\Classes\SystemMonster.h" />
+    <ClInclude Include="..\Classes\UpgradeSystemLayer.h" />
+    <ClInclude Include="..\Classes\WeaponSprite.h" />
+    <ClInclude Include="..\Classes\WelComeGameLayer.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Classes\AboutCoderLayer.cpp" />
+    <ClCompile Include="..\Classes\AppDelegate.cpp" />
+    <ClCompile Include="..\Classes\BaseLayer.cpp" />
+    <ClCompile Include="..\Classes\BulletsSprite.cpp" />
+    <ClCompile Include="..\Classes\CheckpointSystems.cpp" />
+    <ClCompile Include="..\Classes\DefenderGameLayer.cpp" />
+    <ClCompile Include="..\Classes\GameOverDialogLayer.cpp" />
+    <ClCompile Include="..\Classes\GameSuccessfullyLayer.cpp" />
+    <ClCompile Include="..\Classes\GameTipsSprite.cpp" />
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp" />
+    <ClCompile Include="..\Classes\LoadingLayer.cpp" />
+    <ClCompile Include="..\Classes\MagicMatrixSprite.cpp" />
+    <ClCompile Include="..\Classes\MainCityBloodSprite.cpp" />
+    <ClCompile Include="..\Classes\MonsterSprite.cpp" />
+    <ClCompile Include="..\Classes\MonsterSystem.cpp" />
+    <ClCompile Include="..\Classes\PauseGameDialogLayer.cpp" />
+    <ClCompile Include="..\Classes\RatingSprite.cpp" />
+    <ClCompile Include="..\Classes\SnailProgressSprite.cpp" />
+    <ClCompile Include="..\Classes\UpgradeSystemLayer.cpp" />
+    <ClCompile Include="..\Classes\WeaponSprite.cpp" />
+    <ClCompile Include="..\Classes\WelComeGameLayer.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

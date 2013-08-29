@@ -1,0 +1,385 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{ce5c7f5a-5d31-46d5-b07d-6856d55efb89}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{a2c402fb-9336-4790-9fa1-ca2dd552f9bb}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{55eae307-a65b-4b9e-b303-1a7b6103e351}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;png;manifest</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Defender.ico">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\CloseSelected.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\CloseNormal.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\HelloWorld.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\fonts\Marker Felt.ttf">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\game\zcblood.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\game\lvinfo.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\game\lvSyspng.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\game\defender.xml">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\game\coin.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\game\gameover.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\game\gameovertips.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\game\jnl.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\game\jnzt.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\game\killbonus.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\game\lifebonus.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\game\lvinfo.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\game\lvSyspng.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\game\magic.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\game\MagicMatrix.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\game\monster_blood.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\game\monster_blood_frame.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\game\number_ttf.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\game\numtips.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\game\panelblood.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\game\stage_title.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\game\stagebonus.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\game\statstip.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\game\total.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\game\weapon.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\game\woniu.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\game\woniubj.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\game\woniujd.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\game\wq0.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\gmbg\welcomebg.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\gmbg\coder.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\gmbg\gamebg.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\gmbg\gameoverbg.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\gmbg\lodingbg.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\gmbg\longding.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\gmbg\pause_bg.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\gmbg\research_bg.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\gmbg\stats_bg.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\gmme\upup.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\gmme\btn_home_down.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\gmme\btn_home_up.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\gmme\btn_resume_down.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\gmme\btn_resume_up.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\gmme\btn_retry_down.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\gmme\btn_rety_up.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\gmme\button_sound_off.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\gmme\button_sound_on.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\gmme\coder_down.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\gmme\coder_up.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\gmme\outdown.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\gmme\outup.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\gmme\pause_button.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\gmme\return_down.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\gmme\return_up.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\gmme\star_down.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\gmme\star_up.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\gmme\updwon.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\monster\dutu.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\monster\dutu.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\music\dt.mp3">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\specia\thumbnails.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\specia\diyu.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\specia\ligtht.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\specia\long.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\specia\thumbnails.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\specia\diyu.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\specia\ligtht.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\specia\long.png">
+      <Filter>resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Defender.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AboutCoderLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BaseLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BulletsSprite.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CheckpointSystems.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DefenderGameLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameOverDialogLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameSuccessfullyLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameTipsSprite.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LoadingLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MagicMatrixSprite.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MainCityBloodSprite.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MonsterSprite.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MonsterSystem.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PauseGameDialogLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RatingSprite.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SnailProgressSprite.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SystemMonster.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UpgradeSystemLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WeaponSprite.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WelComeGameLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AboutCoderLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BaseLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BulletsSprite.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CheckpointSystems.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DefenderGameLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameOverDialogLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameSuccessfullyLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameTipsSprite.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LoadingLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MagicMatrixSprite.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MainCityBloodSprite.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MonsterSprite.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MonsterSystem.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PauseGameDialogLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RatingSprite.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SnailProgressSprite.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UpgradeSystemLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WeaponSprite.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WelComeGameLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
